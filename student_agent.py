@@ -71,7 +71,7 @@ class TaxiAgent:
         self.q_table[state][action] = new_q
 
 agent = TaxiAgent(alpha=0.1, gamma=0.9)
-epsilon = 1.0
+epsilon = 0.1
 def get_action(obs):
 
     global agent
